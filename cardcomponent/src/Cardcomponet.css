@@ -1,0 +1,38 @@
+.main-div{
+    width:80%;
+    height:600px;
+    background: #E8A0BF;
+
+}
+.card{
+    text-align: left;
+    width: 250px;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 15px;
+    padding: 25px;
+    background: #CF4DCE;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+    color: white ;
+}
+.card p{
+font-size: 12px;
+}
+
+.card-img{
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+
+}
+.card-btn{
+    border: 2px solid white;
+    padding: 5px 12px;
+    background: #E8A0BF;
+    box-shadow: 0px 0px 5px black; ;
+    border-radius: 30px;
+    
+}
