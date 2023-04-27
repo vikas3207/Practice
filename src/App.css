@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.main-div{
+  display: flex;
+  width: 60%;
+  margin: auto;
+  flex-wrap: wrap;
+  background:#ccc;
+}
+
+
