@@ -27,7 +27,8 @@ function LuckyNumber(){
             setMessage(
                 alert("Yout number is smaller"))
         }
-    
+         
+        setNumber(" ")
 
         
     }
