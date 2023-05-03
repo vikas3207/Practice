@@ -1,0 +1,20 @@
+.main-container{
+    width: 320px;
+    border:1px solid white;
+    color: rgb(248, 245, 245);
+    padding: 12px;
+    background:#630A10;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #630A10;
+    margin-top: 70px;
+}
+.main-container p{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+.main-container img{
+    box-shadow: 0px 0px 3px #fff;
+    border-radius: 10px;
+    
+}
