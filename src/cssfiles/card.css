@@ -1,0 +1,15 @@
+.main-container{
+    color: brown;
+     border: 1px solid black;
+     
+        
+}
+
+.Card-Container{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: auto;
+    margin: 15px;
+    border: 1px solid white;
+}
