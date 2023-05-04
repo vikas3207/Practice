@@ -1,0 +1,44 @@
+.main_div{
+    width: 300px;
+    background: url(https://pub-static.fotor.com/assets/projects/pages/6aa6e38e9ee04b31828265f6f82c565c_e9ba7d251af74ce49a524ddb14d86a38_thumb.jpg);
+    height: 400px;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #4E6C50;
+    justify-content: center;
+    
+    
+    
+}
+.main_div h6{
+    margin: 10px;
+}
+.main_div input{
+    padding: 8px;
+    border: none;
+    margin: 20px;
+    color: #820000;
+    box-shadow: 0px 0px 5px #820000;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.main_div .btn{
+    width: 100px;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    border: 2px solid #4E6C50;
+    border-radius: 5px;
+    background: #fff;
+    color: #820000;
+    font-weight: 600;
+}
+.main_div .btn:hover{
+    background: black;
+    color: white;
+}
+.main_div p{
+    font-size: 15px;
+    color: black;
+}
