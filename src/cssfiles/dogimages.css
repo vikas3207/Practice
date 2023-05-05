@@ -1,16 +1,16 @@
 .main-container{
     width: 320px;
     border:1px solid white;
-    color: rgb(248, 245, 245);
+    color: rgb(24, 2, 2);
     padding: 12px;
-    background:#630A10;
+    background:#f7aeed;
     border-radius: 10px;
     box-shadow: 0px 0px 5px #630A10;
     margin-top: 70px;
 }
 .main-container p{
     font-size: 15px;
-    color: white;
+    color: rgb(29, 1, 1);
     font-weight: 600;
 }
 .main-container img{

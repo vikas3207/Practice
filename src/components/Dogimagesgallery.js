@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import '../cssfiles/dogimages.css';
+import axios from "axios";
 
-export default function Dogimages () {
-    const[image,setImage] = useState('')
-    useEffect(() =>{ 
-         fetch('https://dog.ceo/api/breeds/image/random')
-        .then( response => response.json())
-        .then(data => setImage(data.message))
-        .catch ((error) => console.log(error))    
-    },[]);    
-
+export default function DogimagesGallery () {
+    const[image,setImage] = useState(' ')
+    
+    useEffect(() => {
+        axios.get('https://dog.ceo/api/breeds/image/random')
+        .then((response)=> {
+            setImage(response.data.message) 
+        })
+    },[])
   
     
     return (
