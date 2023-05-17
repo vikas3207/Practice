@@ -1,0 +1,31 @@
+li{
+    list-style: none;
+    /* margin-right: 30px; */
+    width: 70%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    background: linear-gradient(100deg, #E3F4F4, transparent);
+    padding: 5px 5px 5px 15px;
+    border-radius: 3px;
+}
+.List-items{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 15px auto;
+    margin:15px 15px 5px 30px;
+    
+
+}
+.list-btn{
+    color:#fff;
+    font-size: 28px;
+    font-weight: 800;
+    background: rgb(109, 5, 5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.check-btn {
+    background: #6C9BCF;
+}
