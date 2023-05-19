@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 5px black;
+    width: 500px;
+    background: rgba(227, 244, 244,0.5);
+    border-radius: 15px;
+    /* padding: 20px; */
+    height: 350px;
+}
+.container h4{
+    text-align: center;
+    margin:auto auto 30px;
+    background-color: black;
+    color: #ccc;
+    padding: 8px;
+    border-radius: 15px 15px 0px 0px ;
+    text-shadow: -2px 1px 3px #820000;
+    letter-spacing: 1.5px;
+    
+}
+.question-content{
+    margin: 20px;
+
+}
+.Option-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 50%; */
+    margin: 20px 0;
+}
+.Question{
+    font-weight: 500;
+    font-weight: 500;
+    padding: 10px;
+    box-shadow: 0px 0px 5px;
+    border-radius: 5px;
+}
+.option-btn{
+    width:50% ;
+    text-align: start;
+    padding:5px 5px 5px 10px;
+    margin: 5px 0px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 0px 3px;
+    cursor: pointer;
+    
+}
+.tryAgain-btn{
+    padding: 6px ;
+    background: #820000;
+    color: white;
+    width: 150px;
+    font-weight: 600;
+    margin: 30px auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.checked{
+    background: #a8f7a1;
+}
+.option-btn:hover{
+    background: #CDF2CA;
+}
+.container input{
+    padding: 5px ;
+    width: 20%;
+    font-weight: 700;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 0px 3px;
+    background: #8CC0DE;
+    cursor: pointer;
+}
+
+.Result-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #820000;
+}
+.container input:hover{
+    background: #65C18C;
+}
+@media (max-width:668px){
+    .container{
+        width: 320px;
+        height: 380px;
+    }
+}

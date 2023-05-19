@@ -1,0 +1,15 @@
+.App {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701570688.jpg) ;
+  background-size: cover;
+}
+
+
+
+
+
