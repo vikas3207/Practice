@@ -12,6 +12,7 @@ function ListItems(props) {
             <div className='List-items'>
                <li style={{textDecoration: line ? "line-through" : "none"}}> {props.text}</li>
                <CiCircleCheck className='list-btn check-btn ' onClick={checkMark}/>
+                <span style={{ display: line ? '' : 'none' }}><CiEraser className='list-btn remove-btn ' onClick={removMark} /></span>
                <CiCircleRemove onClick={() => { props.onSelect(props.id) }} className='list-btn'/>
                
             </div>
