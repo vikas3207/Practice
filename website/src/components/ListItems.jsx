@@ -7,6 +7,9 @@ function ListItems(props) {
     const checkMark = () => {
          setLine(true);
     }
+     const removMark = () => {
+        setLine(false);
+    }
     return (
         <>
             <div className='List-items'>
