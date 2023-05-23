@@ -29,3 +29,17 @@ li{
 .check-btn {
     background: #6C9BCF;
 }
+.remove-btn{
+    background: transparent;
+    font-size: 24px;
+    border: 1px solid white;
+    border: 50%;
+    padding: 3px;
+    margin: 2px;
+}
+.List-items span{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #f18b2a;
+}
